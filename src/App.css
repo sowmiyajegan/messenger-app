@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  height: 98vh;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.padding-5 {
+    padding: 5px;
+}
+
+.chat-list-messages {
+    flex-grow: 1;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.chat-list-time {
+    /* todo */
+}
+
+.chat-profile {
+    border-radius: 50%;
+}
+
+.chat-list-message-title {
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.chat-header {
+    background-color: #c1bfffad;
+}
+
+.side-panel {
+    width: 30%;
+    background-color: #efffff;
+    padding: 10px
+}
+
+.main-panel {
+    width: 70%;
+    height: 100%;
+}
+
+.chat-window {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+.text-editor {
+    width: 100%;
+    min-height: 50px;
+    max-height: 200px;
+    overflow: auto;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.text-send-btn {
+    background: #cbd1f2;
+    border: 1px solid #91a6d3;
+    width: 70px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 4px;
+}
+
+.bubble {
+    padding: 15px;
+    background: aliceblue;
+    width: fit-content;
+    margin: 10px
+}
+
+.bubble-right-aligned {
+    background: aquamarine;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.messages-container {
+    max-height: 85%;
+    overflow: auto;
+}
